@@ -67,7 +67,9 @@ p {
 /* Ecovent Video with Vent Border */
 .video_banner {
 	position: relative;
-	margin: 10% 10% 0% 10%;
+	/* margin: 10% 10% 0% 10%; */
+	margin-top: 10%;
+	margin-left: 2%;
 	padding-bottom: 45%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
@@ -83,7 +85,7 @@ p {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	height: 75%;
 	z-index: 10;
 }
 
@@ -91,7 +93,32 @@ p {
 	margin-bottom: 2%;
 }
 
+.form {
+	margin-top: 15%;
+}
+
+label {
+ 	display: block;
+ 	margin-top: 2%;
+ }
+fieldset {
+	padding-left: 5%;
+}
+
+legend {
+	margin-bottom: 0px;
+	width: inherit;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+
+ .btn {
+	margin-top: 2%;
+	margin-bottom: 2%;
+ }
+
 .social_top {
+	clear: both;
 	margin-left: 42%;
 }
 
