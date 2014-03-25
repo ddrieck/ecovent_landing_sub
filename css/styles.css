@@ -233,3 +233,12 @@ legend {
 	color: white;
 	clear: both;
 }
+
+/* Confirmation Page */
+.thank_you {
+	margin: 15% 44% 0 42%;
+}
+
+.thank_you h1, p {
+	text-align: center;
+}
