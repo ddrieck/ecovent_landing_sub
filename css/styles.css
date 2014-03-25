@@ -49,6 +49,17 @@ p {
 	color: white;
 }
 
+.tag_line {
+	padding-top: 8%;
+	text-align: center;
+}
+
+.tag_sub {
+	width: 75%;
+	margin-left: 13%;
+	text-align: center;
+}
+
 .sign_up {
 	float: right;
 	padding-top: 3%;
@@ -67,19 +78,17 @@ p {
 /* Ecovent Video with Vent Border */
 .video_banner {
 	position: relative;
-	/* margin: 10% 10% 0% 10%; */
-	margin: 10% 1% 0% 1%;
-	padding-bottom: 35%; /* 16:9 */
-	padding-top: 25px;
+	margin: 3% 1% 0% 5%;
+	padding: 25px 5% 35% 3%;
 	height: 0;
 }
 
 .vent_video {
-	border: 40px solid transparent;
-  	-moz-border-image:url("../images/ventvideo.jpg") 40 40 stretch; /* Old firefox */
-  	-webkit-border-image:url("../images/ventvideo.jpg") 40 40 stretch; /* Safari */
-  	-o-border-image:url("../images/ventvideo.jpg") 40 40 stretch; /* Opera */
-  	border-image:url("../images/ventvideo.jpg") 40 40 stretch;
+	/* border: 40px solid transparent;
+	  	-moz-border-image:url("../images/ventvideo.jpg") 40 40 stretch; Old firefox
+	  	-webkit-border-image:url("../images/ventvideo.jpg") 40 40 stretch; Safari
+	  	-o-border-image:url("../images/ventvideo.jpg") 40 40 stretch; Opera
+	  	border-image:url("../images/ventvideo.jpg") 40 40 stretch; */
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -93,8 +102,8 @@ p {
 }
 
 .form {
-	margin-top: 13%;
-	margin-left: 5%;
+	margin-left: 2%;
+	margin-top: 10%;
 }
 
 label {
@@ -107,9 +116,8 @@ fieldset {
 
 legend {
 	margin-bottom: 0px;
-	width: inherit;
-	padding-right: 1%;
-	padding-left: 1%;
+	margin-right: 10%;
+	width: 80%;
 }
 
  .btn {
@@ -126,11 +134,15 @@ legend {
 	width: 50%;
 }
 /* Systems Banner */
-.story, .what_can, .video_section {
+.difference, .video_section, .press {
 	width: 100%;
 	background: #F4F4F4 repeat;
 	padding-top: 2%;
 	padding-bottom: 5%;
+}
+
+.systems_banner {
+	padding-bottom: 3%;
 }
 
 .section_title {
@@ -140,6 +152,7 @@ legend {
 
 .systems_comp, .what_can_eco, .difference {
 	padding-left: 3%;
+	padding-right: 3%;
 	text-align: center;
 }
 
@@ -153,12 +166,20 @@ legend {
 	margin-right: 10%;
 }
 
-.systems_banner {
+/* What Can Banner */
+.what_can_eco img {
+	width: 60%;
+}
+
+.what_can_eco {
 	margin-bottom: 5%;
 }
 
-/* What Can Banner */
-.what_can_eco img {
+.press {
+	padding-left: 10%;
+}
+
+.press img {
 	width: 60%;
 }
 
@@ -167,6 +188,10 @@ legend {
 	width: 100%;
 	background-color: #49a7dd;
 	color: white;
+}
+
+.info_footer_section h3{
+	text-align: center;
 }
 
 .container-fluid {
@@ -216,6 +241,10 @@ legend {
 
 .facebook {
 	background-image: url('../images/icons/facebook-hover.png');
+}
+
+.youtube {
+	background-image: url('../images/icons/youtube-hover.png');	
 }
 
 .facebook-like-div {
