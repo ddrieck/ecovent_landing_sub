@@ -7,6 +7,7 @@
 p {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
+	font-size: 1.2em;
 }
 
 /* CLearfix */
@@ -18,7 +19,7 @@ p {
 
 /* Fixed Title Bar Styles */
 .title_bar {
-	position: fixed;
+	position: relative;
 	width: 100%;
 	background-color: #49a7dd;
 	z-index: 15;
@@ -45,14 +46,13 @@ p {
 }
 
 .tag_line {
-	padding-top: 8%;
 	text-align: center;
 	font-size: 2.7em;
 }
 
 .tag_sub {
-	width: 75%;
-	margin-left: 13%;
+	width: 90%;
+	margin-left: 5%;
 	text-align: center;
 }
 
@@ -130,7 +130,7 @@ legend {
 	width: 38%;
 }
 
-.glyphicon-usd {
+.glyphicon-usd, .glyphicon-time {
 	font-size: 10em;
 	padding-top: 3%;
 	padding-bottom: 2%;
@@ -147,6 +147,11 @@ legend {
 
 .systems_banner {
 	padding-bottom: 3%;
+	padding-top: 2%;
+}
+
+.video_section {
+	padding-top: 1%;
 }
 
 .section_title {
@@ -173,7 +178,7 @@ legend {
 /* What Can Banner */
 .what_can_eco img {
 	width: 60%;
-	margin-bottom: 2%;
+	margin-bottom: 5%;
 }
 
 .what_can_eco {
@@ -226,6 +231,7 @@ legend {
 
 .press_images {
 	padding-left: 6%;
+	padding-top: 2%;
 }
 
 .press_images img {
