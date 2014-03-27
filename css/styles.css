@@ -130,10 +130,10 @@ legend {
 	width: 38%;
 }
 
-.glyphicon-usd, .glyphicon-time {
-	font-size: 10em;
+.glyphicon-usd, .glyphicon-time, .glyphicon-phone {
+	font-size: 8em;
 	padding-top: 3%;
-	padding-bottom: 2%;
+	padding-bottom: 7%;
 	color: black;
 }
 
@@ -141,7 +141,7 @@ legend {
 .difference, .video_section, .press {
 	width: 100%;
 	background: #F4F4F4 repeat;
-	padding-top: 2%;
+	padding-top: 1%;
 	padding-bottom: 3%;
 }
 
@@ -167,6 +167,7 @@ legend {
 
 .systems_comp img {
 	width: 80%;
+	padding-bottom: 3%;
 }
 
 /* Story Banner */
@@ -191,6 +192,7 @@ legend {
 	width: 100%;
 	background-color: #49a7dd;
 	color: white;
+	padding-top: 2%;
 }
 
 .container-fluid {
@@ -235,7 +237,7 @@ legend {
 }
 
 .press_images img {
-	width: 40%;
+	width: 50%;
 }
 
 #MIT {
@@ -268,7 +270,7 @@ legend {
 }
 
 .facebook-like-div {
-	margin: 1% 43% 0 41%;
+	margin: 1% 43% 0 43%;
 }
 .facebook-like {
 	height: 75px;
@@ -305,7 +307,7 @@ legend {
 
 /* Confirmation Page */
 .thank_you {
-	margin: 15% 44% 0 42%;
+	margin: 2% 40% 0 40%;
 }
 
 .thank_you h1, .thank_you p {
