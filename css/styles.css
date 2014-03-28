@@ -62,6 +62,19 @@ p {
 	padding-left: 5%;
 }
 
+.mc-field-group {
+	display: inline;
+}
+
+#mce-FNAME {
+	padding: 2% 0 2% 3%;;
+}
+
+#mce-LNAME {
+	margin-left: 2%;
+	padding: 2% 0 2% 3%;
+}
+
 #mce-EMAIL {
 	width: 60%;
 	display: inline-block;
@@ -276,9 +289,7 @@ legend {
 }
 
 .return {
- 	margin: 3% 45% 0 40%;
- 	height: 40px;
- 	width: 20%;
+ 	margin: 3% 44% 0 42%;
  }
 
 .facebook-like {
