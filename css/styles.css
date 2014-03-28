@@ -272,11 +272,13 @@ legend {
 }
 
 .facebook-like-div {
-	margin: 1% 43% 0 43%;
+	margin: 2.5% 43% 0 43%;
 }
 
 .return {
- 	margin: 3% 44% 0 42%;
+ 	margin: 3% 45% 0 40%;
+ 	height: 40px;
+ 	width: 20%;
  }
 
 .facebook-like {
