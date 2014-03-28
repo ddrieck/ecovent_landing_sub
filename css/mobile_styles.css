@@ -106,8 +106,11 @@ label {
  	display: block;
  	margin-top: 2%;
  }
-fieldset {
-	padding-left: 5%;
+
+
+input {
+	margin-top: 3%;
+	padding: 2% 0 2% 3%;
 }
 
 legend {
@@ -269,12 +272,17 @@ legend {
 }
 
 .facebook-like-div {
-	margin: 1% 43% 0 41%;
+	margin: 1% 43% 0 43%;
 }
 .facebook-like {
 	height: 75px;
 	width: 100%;
 }
+
+.return {
+ 	margin: 1% 44% 0 42%;
+ }
+
 
 .social-slide {
 	height: 48px;
