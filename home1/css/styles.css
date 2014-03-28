@@ -84,6 +84,11 @@ p {
 	display: inline-block;
 }
 
+.form-required {
+	display: block;
+	margin: 3% 0 3% 0;
+}
+
 /* Ecovent Video with Vent Border */
 .video_banner {
 	position: relative;
