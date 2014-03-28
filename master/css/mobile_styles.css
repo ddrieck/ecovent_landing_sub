@@ -18,7 +18,7 @@ p {
 
 /* Fixed Title Bar Styles */
 .title_bar {
-	position: fixed;
+	position: relative;
 	width: 100%;
 	background-color: #49a7dd;
 	z-index: 15;
@@ -133,12 +133,12 @@ legend {
 	width: 45%;
 }
 
-.glyphicon-usd {
+.glyphicon-usd, .glyphicon-time, .glyphicon-phone {
 	font-size: 8em;
-	padding: 3% 2% 2% 0;
+	padding-top: 3%;
+	padding-bottom: 7%;
 	color: black;
 }
-
 /* Systems Banner */
 .difference, .video_section, .press {
 	width: 100%;
@@ -215,10 +215,12 @@ legend {
 }
 
 .contact_info a {
+	color: white;
 	font-size: 1em;
 	padding-left: 5%;
 	font-family: 'Raleway', sans-serif;
 }
+
 
 .blogs {
 	padding-left: 7%;
@@ -272,15 +274,16 @@ legend {
 }
 
 .facebook-like-div {
-	margin: 1% 43% 0 43%;
+	margin: 1% 25% 0 25%;
 }
+
 .facebook-like {
 	height: 75px;
 	width: 100%;
 }
 
 .return {
- 	margin: 2% 44% 0 42%;
+ 	margin: 2% 15% 0 25%;
  }
 
 
@@ -314,9 +317,9 @@ legend {
 }
 
 /* Confirmation Page */
-.thank_you {
+/* .thank_you {
 	margin: 15% 44% 0 42%;
-}
+} */
 
 .thank_you h1, .thank_you p {
 	text-align: center;
